@@ -2,71 +2,35 @@
 layout: default
 data_file: trasparenza.yml
 ---
-
-{% assign entries = site.data[page.data_file] %}
-
-<table class="cms-table" id="table-albo">
-    <thead>
+<div class="table-xxl">
+    <table class="table">
+      <thead>
         <tr>
-            <th class="hidden-xs" style="text-align:center;">Numero pubblicazione</th>
-            <th class="hidden-xs">Mittente</th>
-            <th class="hidden-xs" style="text-align:center;">Numero atto</th>
-            <th class="hidden-xs" style="text-align:center;">Registro generale</th>
-            <th class="hidden-xs" style="text-align:center;">Data inizio</th>
-            <th class="hidden-xs" style="text-align:center;">Data fine</th>
-            <th class="hidden-xs" style="text-align:center;">Documento</th>
+          <th scope="col">#</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Cognome</th>
+          <th scope="col">Username</th>
         </tr>
-    </thead>
-    <tbody>
-        {% for entry in entries %}
+      </thead>
+      <tbody>
         <tr>
-            <td class="hidden-xs" style="width:18%">
-                <strong>Numero pubblicazione</strong>
-                <div>{{ entry.numero_pubblicazione }}</div>
-                <br>
-                <strong>Mittente</strong>
-                <div>{{ entry.mittente }}</div>
-                <br>
-                <strong>Tipo</strong>
-                <div>{{ entry.tipo }}</div>
-            </td>
-            <td class="hidden-xs" style="width:35%;">
-                <strong>Oggetto</strong><br>
-                <a href="{{ entry.link }}" title="Fai click qui per andare al dettaglio">
-                    <div class="albo-colore">{{ entry.oggetto }}</div>
-                </a>
-            </td>
-            <td class="hidden-xs" style="width:13%;">
-                <strong>Numero atto</strong>
-                <div>{{ entry.numero_atto }}</div>
-                <br>
-                <strong>Data atto</strong>
-                <div>{{ entry.data_atto }}</div>
-            </td>
-            <td class="hidden-xs" style="width:15%;">
-                <strong>Registro generale</strong>
-                <div>{{ entry.registro_generale }}</div>
-                <br>
-                <strong>Data registro generale</strong>
-                <div>{{ entry.data_registro_generale }}</div>
-            </td>
-            <td class="hidden-xs" style="width:10%;">
-                <strong>Data inizio</strong>
-                <div>{{ entry.data_inizio }}</div>
-                <br>
-                <strong>Data fine</strong>
-                <div>{{ entry.data_fine }}</div>
-            </td>
-            <td class="hidden-xs" style="width:10%;text-align:center;">
-                <strong>Documento</strong>
-                <a href="{{ entry.documento_link }}" title="Scarica documento">
-                    <span class="fa fa-file-text-o"></span>
-                </a>
-                <br>
-                <strong>Allegati</strong>
-                <div style="text-align:center;vertical-align:top;"><span class="fa fa-paperclip" title="Numero allegati"></span> {{ entry.allegati }}</div>
-            </td>
+          <th scope="row">1</th>
+          <td>Mario</td>
+          <td>Verdi</td>
+          <td>mario.verdi</td>
         </tr>
-        {% endfor %}
-    </tbody>
-</table>
+        <tr>
+          <th scope="row">2</th>
+          <td>Francesco</td>
+          <td>Bianchi</td>
+          <td>francesco.bianchi</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Alessandro</td>
+          <td>Rossi</td>
+          <td>alessandro.rossi</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
