@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Homepage di esempio
-description: Questo è un esempio di homepage con utilizzo del componente "hero"
+title: Trasparenza
+description: Questo è il sito ufficiale della sezione trasparenza di Arena Giovani, un progetto indipendente.
 lang: it
 ref: homepage
 permalink: /
