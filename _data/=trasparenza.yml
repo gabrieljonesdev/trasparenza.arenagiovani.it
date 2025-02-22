@@ -1,11 +1,15 @@
-- tipo: Comunicato
-  nome: Comunicato del presidente N1
-  mittente: UfficioPublico
-  data_atto: 01/02/2025
-  link: "https://comune.arenagiovani.it/assets/1.pdf"
+- tipo: Apertura
+  nome: Dichiarazione di apertura del mandato di Gabriel Jones
+  mittente: UfficioSoci
+  data_atto: 25/02/2025
+  link: "https://comune.arenagiovani.it/assets/dichiarazione-di-apertura.pdf"
 - tipo: Documento di entrata
   nome: Obiettivi mandato Gabriel Jones | Organo dei soci
   mittente: UfficioDelPresidente
   data_atto: 15/02/2025
   link: "https://comune.arenagiovani.it/assets/obiettivi_primo_mandato.pdf"
-  
+- tipo: Comunicato
+  nome: Comunicato del presidente N1
+  mittente: UfficioPublico
+  data_atto: 01/02/2025
+  link: "https://comune.arenagiovani.it/assets/1.pdf"
