@@ -1,4 +1,9 @@
 - tipo: Apertura
+  nome: Pubblicazione proposta centro giovani 
+  mittente: Ufficio Pubblico Arena Giovani
+  data_atto: 21/03/2025
+  link: "https://comune.arenagiovani.it/proposte/centrogiovani/"
+- tipo: Apertura
   nome: Dichiarazione di apertura del mandato di Gabriel Jones
   mittente: UfficioSoci
   data_atto: 25/02/2025
